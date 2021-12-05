@@ -13,7 +13,7 @@ function getData() {
 				console.log(i.name);
 				document.getElementById('child1').innerText = '';
 				document.getElementById('child1').innerText +=
-					'Quote Id' + i.quote_id + '\n' + 'Quote' + i.quote + '\n';
+					'Quote Id' + i.quote_id + '\n' + 'Quote' + i.quote + '\n' + "Author" + i.author + "\n" + "Series" + i.series + "\n";
 			});
 			// document.getElementById('parent').innerText = ;
 		})
